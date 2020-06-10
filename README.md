@@ -27,7 +27,7 @@ We used Snowboy for voice recognition. Snowboy is an highly customizable hotword
 We used deep learning (CNN) to process the real-time image coming from the camera and determine the current context. 
 We tried both PyTorch and TensorFlow, but we used PyTorch due to memory issues. If you have enough memory, you can use TensorFlow. 
 We provided step-by-step from pre-processing to model evaluation so that you could easily understand it even if you were new to deep learning.
-<img src='https://drive.google.com/uc?id=1s_gq1sL458tjgX0huKbCjGALfjM1Z9Bp' width='800'>
+<img src='https://drive.google.com/open?id=1s_gq1sL458tjgX0huKbCjGALfjM1Z9Bp' width='800'>
 
 ### Overview
 This project is a modified ```Collision avoidance``` example from NVIDIA JetBot Wiki and ```Finding-path-in-maze-of-traffic-cones``` from dvillevald. It consists of four major steps, each described in a separate Jupyter notebook:
@@ -72,4 +72,5 @@ Now everything is ready. Run your jetbot smartly using the trained model and sno
 
 ### Future work
 In our practice, in a sudden situation (traffic light, crossroads), the user first intervened and spoken by voice, but this is a very cumbersome and difficult task. It would be interesting to be able to apply the idea provided by [SelectiveNet](https://deepai.org/publication/selectivenet-a-deep-neural-network-with-an-integrated-reject-option) to the robot to recognize the sudden situation first and apply a query to the user. (Selective offers the 'I don't know' option if the risk is high when predicting a class)
+
 <img src='https://images.deepai.org/converted-papers/1901.09192/arch_ne.png' width='500'>
