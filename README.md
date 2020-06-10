@@ -65,5 +65,11 @@ Now everything is ready. Run your jetbot smartly using the trained model and sno
 * Create logic to control the robot
 
 ### Lessons learned
+* We not only let JetBot drive automatically through image processing, but also allow us to control it during autonomous driving through voice commands even in sudden situations (traffic lights or crossroads).
+* We used various speech recognition library(e.g., [Pocketsphinx](https://pypi.org/project/pocketsphinx/), [google speech recognition](https://pypi.org/project/SpeechRecognition/2.1.3/)) before using Snowboy. However, in the case of Snowboy, the trained voice model was available, so Snowboy's voice recognition performance was the best. 
+* Not surprisingly, the quality of the collected data was the most important factor in the performance of autonomous driving than the model used. For best performance, it is important to provide as much data as possible, in different situations (e.g., light, floor color, distance and angle).
+* We did the same task using Keras, but we observed a Jetbot shutdown due to the memory limitations of the Jetson Nano. Various attempts seem to be necessary. It seems to need a variety of attempts. (Swap memory, Tensorflow Lite)
 
 ### Future work
+In our practice, in a sudden situation (traffic light, crossroads), the user first intervened and spoken by voice, but this is a very cumbersome and difficult task. It would be interesting to be able to apply the idea provided by [SelectiveNet](https://deepai.org/publication/selectivenet-a-deep-neural-network-with-an-integrated-reject-option) to the robot to recognize the sudden situation first and apply a query to the user. (Selective offers the 'I don't know' option if the risk is high when predicting a class)
+<img src='https://images.deepai.org/converted-papers/1901.09192/arch_ne.png' width='500'>
