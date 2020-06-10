@@ -12,6 +12,7 @@ The objectives of this project are as follow
 3. execute the JetBot commands based on current context.
 
 #### JetBot
+ <img src='https://www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/embedded-jetbot-ai-kits-seeed-2c50-D.jpg'>
 JetBot is an open-source robot based on NVIDIA Jetson Nano that is
 * Affordable - Less than $150 add-on to Jetson Nano
 * Educational - Tutorials from basic motion to AI based collision avoidance
