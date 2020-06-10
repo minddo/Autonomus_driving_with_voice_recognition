@@ -19,7 +19,7 @@ To get started, read the [JetBot Wiki](https://github.com/NVIDIA-AI-IOT/jetbot/w
 
 #### Voice recognition
 <img src='https://snowboy.kitt.ai/3ee1353fe05ea13250318e7aa14f4a31.png' width='500'>
-We used Snowboy for voice recognition. Snowboy is an highly customizable hotword detection engine that is embedded real-time and is always listening (even when off-line) compatible with Raspberry Pi, (Ubuntu) Linux, and Mac OS X. Here, A hotword (also known as wake word or trigger word) is a keyword or phrase that the computer constantly listens for as a signal to trigger other actions.
+We used **Snowboy** for voice recognition. Snowboy is an highly customizable **hotword** detection engine that is embedded real-time and is always listening (even when off-line) compatible with Raspberry Pi, (Ubuntu) Linux, and Mac OS X. Here, A hotword (also known as wake word or trigger word) is a keyword or phrase that the computer constantly listens for as a signal to trigger other actions.
 
 For more information see the [Snowboy Wiki](https://github.com/kitt-ai/snowboy)
 
