@@ -28,7 +28,7 @@ We used deep learning (CNN) to process the real-time image coming from the camer
 We tried both PyTorch and TensorFlow, but we used PyTorch due to memory issues. If you have enough memory, you can use TensorFlow. 
 We provided step-by-step from pre-processing to model evaluation so that you could easily understand it even if you were new to deep learning.
 
-![image](https://drive.google.com/uc?export=view&id=1s_gq1sL458tjgX0huKbCjGALfjM1Z9Bp)
+![image](https://drive.google.com/uc?id=1s_gq1sL458tjgX0huKbCjGALfjM1Z9Bp)
 
 ### Overview
 This project is a modified ```Collision avoidance``` example from NVIDIA JetBot Wiki and ```Finding-path-in-maze-of-traffic-cones``` from dvillevald. It consists of four major steps, each described in a separate Jupyter notebook:
