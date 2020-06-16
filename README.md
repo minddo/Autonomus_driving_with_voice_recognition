@@ -4,7 +4,11 @@ This project enables JetBot to listen to and perform human voice commands while 
 
 
 ### Demo video
-[![Video Label](https://ifh.cc/g/DQR3pv.jpg)](https://youtu.be/t8r-ahh4DBk)
+<a href="ttps://youtu.be/t8r-ahh4DBk
+" target="_blank"><img src="https://ifh.cc/g/DQR3pv.jpg)" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
 
 ### Objective
 The objectives of this project are as follow
