@@ -3,6 +3,10 @@
     <img src="https://ifh.cc/g/wcrMUK.jpg" title="하얀 강아지" width=200>    
     <figcaption>하얀 강아지</figcaption>
 </figure>
+<figure>
+    <img src="https://ifh.cc/g/wcrMUK.jpg" title="하얀 강아지" width=200>    
+    <figcaption>하얀 강아지</figcaption>
+</figure>
 
 In this project, you will learn that jetbots can engage human's intervention during autonomous driving. JetBot can autonomously drive based on the trained model, but if it encounters an unexpected situation (e.g., traffic light, intersection), it cannot respond appropriately, it requires human intervention. For that we used the voice command. 
 
