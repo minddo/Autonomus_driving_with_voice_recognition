@@ -1,6 +1,10 @@
 # Autonomus_driving_with_voice_recognition
 
-This project enables JetBot to listen to and perform human voice commands while autonomous driving. The project used cameras and speaker sensors. If you don't have a lot of knowledge about deep learning, we believe you can easily follow
+In this project, you will learn that jetbots can engage human's intervention during autonomous driving. JetBot can autonomously drive based on the trained model, but if it encounters an unexpected situation (e.g., traffic light, intersection), it cannot respond appropriately, it requires human intervention. For that we used the voice command. 
+
+In this project, a [camera](https://www.raspberrypi.org/products/camera-module-v2/) and [speaker](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/) sensors were used. You can use a usb camera instead of a raspberry pi camera. Also you can use any blooth speaker
+
+We used Convolutional Neural Network(CNN) to train the model. If you don't have a lot of knowledge about deep learning, We provide enough tutorials and we believe you can easily follow
 
 
 ### Demo video
@@ -13,7 +17,7 @@ alt="IMAGE ALT TEXT HERE" width="400"  border="10" /></a>
 ### Objective
 The objectives of this project are as follow
 1. deliver voice commands to the JetBot through voice recognition using ```snowboy```
-2. collect and learn images through the JetBot to understand the context
+2. collect and train images through the JetBot to understand the context
 3. execute the JetBot commands based on current context.
 
 #### JetBot
@@ -50,7 +54,7 @@ This project is a modified ```Collision avoidance``` example from NVIDIA JetBot 
 * Install Snowboy
 * Run a demo
 * Make personal hardword model
-* Teleoperate jetbot via voice commands
+* **Teleoperate jetbot via voice commands**
 
 #### Step 2. Collect dataset
 We need to collect data to help the Jetbot find the way. The Jetbot encount 4 situations (i.e, free, blocked, left, and right). You will collect images corresponding to each situation.
@@ -72,9 +76,9 @@ Now everything is ready. Run your jetbot smartly using the trained model and sno
 
 ### Lessons learned
 * We not only let JetBot drive automatically through image processing, but also allow us to control it during autonomous driving through voice commands even in sudden situations (traffic lights or crossroads).
-* We used various speech recognition library(e.g., [Pocketsphinx](https://pypi.org/project/pocketsphinx/), [google speech recognition](https://pypi.org/project/SpeechRecognition/2.1.3/)) before using Snowboy. However, in the case of Snowboy, the trained voice model was available, so Snowboy's voice recognition performance was the best. 
+* We used various speech recognition library (e.g., [Pocketsphinx](https://pypi.org/project/pocketsphinx/), [google speech recognition](https://pypi.org/project/SpeechRecognition/2.1.3/)) before using Snowboy. However, in the case of Snowboy, the trained voice model was available, so Snowboy's voice recognition performance was the best. 
 * Not surprisingly, the quality of the collected data was the most important factor in the performance of autonomous driving than the model used. For best performance, it is important to provide as much data as possible, in different situations (e.g., light, floor color, distance and angle).
-* We did the same task using Keras, but we observed a Jetbot shutdown due to the memory limitations of the Jetson Nano. Various attempts seem to be necessary. It seems to need a variety of attempts. (Swap memory, Tensorflow Lite)
+* We did the same task using Keras, but we observed a Jetbot shutdown due to the memory limitations of the Jetson Nano. Various attempts seem to be necessary to overcome memory limitation. (Swap memory, Tensorflow Lite)
 
 ### Future work
 In our practice, in a sudden situation (traffic light, crossroads), the user first intervened and spoken by voice, but this is a very cumbersome and difficult task. It would be interesting to be able to apply the idea provided by [SelectiveNet](https://deepai.org/publication/selectivenet-a-deep-neural-network-with-an-integrated-reject-option) to the robot to recognize the sudden situation first and apply a query to the user. (Selective offers the 'I don't know' option if the risk is high when predicting a class)
