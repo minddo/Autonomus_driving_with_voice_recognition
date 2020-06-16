@@ -1,5 +1,5 @@
 # Autonomus_driving_with_voice_recognition
-<img data-action="zoom" src='{{ "https://ifh.cc/g/wcrMUK.jpg" | relative_url }}' alt='absolute'>
+<img data-action="zoom" src='{{ "https://ifh.cc/g/wcrMUK.jpg"}}' alt='absolute'>
   <figcaption>free.</figcaption>
 </figure>
 In this project, you will learn that jetbots can engage human's intervention during autonomous driving. JetBot can autonomously drive based on the trained model, but if it encounters an unexpected situation (e.g., traffic light, intersection), it cannot respond appropriately, it requires human intervention. For that we used the voice command. 
