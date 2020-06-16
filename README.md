@@ -6,7 +6,7 @@ This project enables JetBot to listen to and perform human voice commands while 
 ### Demo video
 <a href="https://youtu.be/t8r-ahh4DBk
 " target="_blank"><img src="https://ifh.cc/g/DQR3pv.jpg)" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="400"  border="10" /></a>
 
 
 
