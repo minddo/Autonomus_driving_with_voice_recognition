@@ -1,6 +1,6 @@
 # Autonomus_driving_with_voice_recognition
 
-In this project, you will learn that jetbots can engage human's intervention during autonomous driving. JetBot can autonomously drive based on the trained model, but if it encounters an unexpected situation (e.g., traffic light, intersection), it cannot respond appropriately, it requires human intervention. For that we used the voice command. 
+In this project, you will learn that jetbots can engage human's intervention during autonomous driving. JetBot can autonomously drive based on the trained model, but if it encounters an unexpected situation (e.g., traffic light, intersection), it cannot respond appropriately, so it requires human intervention. For that we used the voice command. 
 
 In this project, a [camera](https://www.raspberrypi.org/products/camera-module-v2/) and [speaker](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/) sensors were used. You can use a usb camera instead of a raspberry pi camera. Also you can use any blooth speaker
 
