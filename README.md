@@ -71,24 +71,26 @@ To run the demo you will likely need the following, depending on which demo you 
 * ATLAS or OpenBLAS (matrix computation)
 
 1. Access Microphone: install PortAudio as a cross-platform support for audio in/out. We also use sox as a quick utility to check whether the microphone setup is correct.
-2. Install SWIG and ATLAS: They are for compiling the Snowboy
+2. Install SWIG and ATLAS: they are for compiling the Snowboy
 3. Install Snowboy: Download libraries and demos provided by Snowboy.
-4. Run a demo: Test the basic example "Snowboy" using the universal model to make sure Snowboy is installed properly
-5. Make personal hardword model: Create personal hotword models to improve the performance of speech recognition. This is provided on the official Snowboy website.
-6. **Remote operate jetbot via voice commands**: Remote operate jetbot via voice commands using the personal hotword model created in 5.
+4. Run a demo: test the basic example "Snowboy" using the universal model to make sure Snowboy is installed properly
+5. Make personal hardword model: create personal hotword models to improve the performance of speech recognition. This is provided on the official Snowboy website.
+6. **Remote operate jetbot via voice commands**: remote operate jetbot via voice commands using the personal hotword model created in 5.
 
 #### Step 2. Collect a dataset for model training
-We need to collect data to help the Jetbot find the way. The Jetbot encount 4 situations (i.e, free, blocked, left, and right). You will collect images corresponding to each situation.
-* Collect data through the user interface provided by ipywidgets (100-200 images per class)
-* Compress the collected dataset into a zip file
+We need to collect data to help the Jetbot find the way. You need to properly collect the images coming from the Jetbot's camera. The Jetbot encount 4 situations (i.e, free, blocked, left, and right). You will collect images corresponding to each situation. 
+1. Initialize the camera
+2. Define a class for organizing a data set. It includes Directory where images are created, pre-processing methods, etc.
+3. Collect data through the user interface provided by ipywidgets (100-200 images per class)
+4. Compress the collected dataset into a zip file
 
 #### Step 3. Training a deep learning through GPU provided by Colab
-You can train a machine learning model with the collected dataset using the Jetson nano's GPU, but we have found that the training was slow due to limited performance. Therefore, we recommend using the free GPU provided by Google to quickly train the dataset.
+You can train a machine learning model with the collected dataset using the Jetson nano's GPU or other device's GPU. As a result of the test, when using the micro USB connector at 5V / 2A (10W), the robot was shut down during training because only 2 of the 4 CPU cores were used. On the other hand, Google Colab provides 12 GB of RAM, 68 GB of disk, and 11.4 GB of GPU, and it makes possible to build and train models stably. Therefore, we recommend using the free GPU provided by Google to quickly train the dataset. 
 
-* Upload zip file to Google Drive
-* Change runtime to GPU
-* Train the dataset and save the model
-* Download the model to your JetBot
+1. Upload zip file to Google Drive
+2. Change runtime to GPU
+3. Train the dataset and save the model
+4. Download the model to your JetBot
 
 #### Step 4. Live demo on JetBot
 Now everything is ready. Run your jetbot smartly using the trained model and snowboy
