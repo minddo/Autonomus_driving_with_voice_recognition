@@ -40,13 +40,14 @@ We provided step-by-step from pre-processing to model evaluation so that you cou
 ##### Convolution Neural Network (CNN)
 A Convolutional Neural Network (CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other. The pre-processing required in a ConvNet is much lower as compared to other classification algorithms. While in primitive methods filters are hand-engineered, with enough training, ConvNets have the ability to learn these filters/characteristics.
 
-<img src='https://ifh.cc/g/44uMg3.png'>
+<img src='https://https://ifh.cc/g/44uMg3.png'>
+
 CNN consis of two parts: (1) convolutional layers, (2) fully connected layers
 * Convolutional layers take the large number of pixels of an image and convert them into a much smaller representation (feature extractors)
 * Fully connected layers convert features into probailities (classifiers)
 
 ##### Transfer learning
-
+In practice, very few people train an entire Convolutional Network from scratch (with random initialization), because it is relatively rare to have a dataset of sufficient size. Instead, it is common to pretrain a ConvNet on a very large dataset (e.g. ImageNet, which contains 1.2 million images with 1000 categories), and then use the ConvNet either as an initialization or a fixed feature extractor for the task of interest.
 
 ### Overview
 This project is a modified [```Collision avoidance```](https://github.com/NVIDIA-AI-IOT/jetbot/tree/master/notebooks/collision_avoidance) example from NVIDIA JetBot Wiki and [```Finding-path-in-maze-of-traffic-cones```](https://github.com/dvillevald/Finding-path-in-maze-of-traffic-cones/tree/master/traffic_cones_driving) from dvillevald. It consists of four major steps, each described in a separate Jupyter notebook:
