@@ -116,7 +116,7 @@ To achieve that, we prepared the following:
 >    (3) If the output of the neural network is "free", the robot moves forward. The jetbot changes direction by comparing the probability of "left" and "right". If the Jetbot doesn't move forward for a long time, explore (turn right).
 <img src='https://ifh.cc/g/onOTpZ.png' width='500'>
 
-3. Prepare a personalized hotword model for voice commands
+3. Prepare a personalized hotword model for voice commands (i.e., wakeup, stop, left, right)
 4. Control robot via voice commands during autonomous driving through the conditional statement
 
 <img src='https://ifh.cc/g/WkyNF3.png' width='500'>
