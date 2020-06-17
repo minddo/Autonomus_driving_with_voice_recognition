@@ -40,7 +40,7 @@ We provided step-by-step from pre-processing to model evaluation so that you cou
 ##### Convolution Neural Network (CNN)
 A Convolutional Neural Network (CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other. The pre-processing required in a ConvNet is much lower as compared to other classification algorithms. While in primitive methods filters are hand-engineered, with enough training, ConvNets have the ability to learn these filters/characteristics.
 
-<img src='https://https://ifh.cc/g/44uMg3.png'>
+<img src='https://ifh.cc/g/44uMg3.png'>
 
 CNN consis of two parts: (1) convolutional layers, (2) fully connected layers
 * Convolutional layers take the large number of pixels of an image and convert them into a much smaller representation (feature extractors)
