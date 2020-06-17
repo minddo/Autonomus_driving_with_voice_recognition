@@ -93,9 +93,17 @@ You can train a machine learning model with the collected dataset using the Jets
 4. Download the model to your JetBot
 
 #### Step 4. Live demo on JetBot
-Now everything is ready. Run your jetbot smartly using the trained model and snowboy
-* Load the trained model
-* Create logic to control the robot
+Now everything is ready. Run your jetbot smartly using the trained model and Snowboy. Our scenario is as follows.
+
+<img src='https://ifh.cc/g/fmN9ru.gif' width='800'>
+
+* First, autonomous driving is started through a voice command (wake up!).
+* Until your voice command is not given, robot will find the way automatically.
+* If an unexpected situation (crossroads in our example) occurs, the autonomous driving is stopped through a voice command, then move the jetbot with voice according to the situation, and then the autonomous driving is started again.
+* When your robot arrives at its destination, your robot ends autonomous driving.
+
+1. Load the trained model
+2. Create logic to control the robot
 
 ### Lessons learned
 * We not only let JetBot drive automatically through image processing, but also allow us to control it during autonomous driving through voice commands even in sudden situations (traffic lights or crossroads).
