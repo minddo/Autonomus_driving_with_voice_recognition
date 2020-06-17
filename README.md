@@ -109,9 +109,11 @@ To achieve that, we prepared the following:
 
 1. Load the model trained in step 3
 2. Configure logic for autonomous driving: The logic refers to the demo code of [Finding-path-in-maze-of-traffic-cones](https://github.com/dvillevald/Finding-path-in-maze-of-traffic-cones/blob/master/traffic_cones_driving/live_demo_cones.ipynb) and consists of the following steps.
-> (1) Pre-process the camera image
-> (2) Execute the neural network
-> (3) If the output of the neural network is "free", the robot moves forward. The jetbot changes direction by comparing the probability of "left" and "right". If the Jetbot doesn't move forward for a long time, explore (turn right).
+>    (1) Pre-process the camera image
+
+>    (2) Execute the neural network
+
+>    (3) If the output of the neural network is "free", the robot moves forward. The jetbot changes direction by comparing the probability of "left" and "right". If the Jetbot doesn't move forward for a long time, explore (turn right).
 <img src='https://ifh.cc/g/onOTpZ.png' width='500'>
 
 3. Prepare a personalized hotword model for voice commands
