@@ -79,6 +79,9 @@ To run the demo you will likely need the following, depending on which demo you 
 
 #### Step 2. Collect a dataset for model training
 We need to collect data to help the Jetbot find the way. You need to properly collect the images coming from the Jetbot's camera. The Jetbot encount 4 situations (i.e, free, blocked, left, and right). You will collect images corresponding to each situation. 
+> We provide a [pre-trained model](https://www.dropbox.com/s/pt59zqrp1mjt39b/best_model_cones.pth?dl=0) so you can skip to step 4 if desired. (This model trained 200 images per class). This model was trained on a limited dataset using the Raspberry Pi V2 Camera.
+
+
 1. Initialize the camera
 2. Define a class for organizing a data set. It includes Directory where images are created, pre-processing methods, etc.
 3. Collect data through the user interface provided by ipywidgets (100-200 images per class)
