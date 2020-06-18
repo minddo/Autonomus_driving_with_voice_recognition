@@ -101,7 +101,7 @@ Now everything is ready. Run your jetbot smartly using the trained model and Sno
 <img src='https://ifh.cc/g/fmN9ru.gif' width='800'>
 
 * First, autonomous driving is started through a voice command (wake up!).
-* Until your voice command is not given, robot will find the way automatically.
+* Until your voice command is given, robot will find the way automatically.
 * If an unexpected situation (crossroads in our example) occurs, the autonomous driving is stopped through a voice command, then move the jetbot with voice according to the situation. After that, the autonomous driving is started again.
 * When your robot arrives at its destination, your robot ends autonomous driving.
 
