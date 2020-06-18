@@ -1,6 +1,6 @@
 # Autonomus_driving_with_voice_recognition
 
-In this project, you will learn how jetbots can drive autonomously and interact with a human voice for navigation.  JetBot can autonomously drive based on the trained model (refer to X’s project), If it encounters an unexpected situation (e.g., intersection, traffic light), it couldn’t appropriately make navigational decisions. In this case, it requires human intervention; i.e., voice-based commands for manual navigation.
+In this project, you will learn how jetbots can drive autonomously and interact with a human voice for navigation.  JetBot can autonomously drive based on the trained model inspired by the ```Finding-path-in-maze-of-traffic-cones``` project., If it encounters an unexpected situation (e.g., intersection, traffic light), it couldn’t appropriately make navigational decisions. In this case, it requires human intervention; i.e., voice-based commands for manual navigation.
 
 In this project, a [camera](https://www.raspberrypi.org/products/camera-module-v2/) and [speaker](https://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/) sensors were used. You can use a USB camera instead of a Raspberry PI camera. Also you can use any Bluetooth speaker
 
@@ -17,8 +17,8 @@ alt="IMAGE ALT TEXT HERE" width="400"  border="10" /></a>
 ### Objective
 The objectives of this project are given as follow
 1. deliver voice commands to the JetBot through voice recognition using [```Snowboy```](https://snowboy.kitt.ai/)
-2. collect image data and train jetbots to create autonomous driving model
-3. create a jetbot hat processes voice commands during autonomous driving by combining 1 and 2
+2. collect image data and train Jetbot to create autonomous driving model
+3. create a Jetbot that processes voice commands during autonomous driving by combining 1 and 2
 
 #### JetBot
  <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/embedded-jetbot-ai-kits-seeed-2c50-D.jpg">
