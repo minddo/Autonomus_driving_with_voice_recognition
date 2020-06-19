@@ -23,7 +23,7 @@ The objectives of this project are given as follow
 #### JetBot
  <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/embedded-jetbot-ai-kits-seeed-2c50-D.jpg">
  
- [image source](https://www.nvidia.com/ko-kr/autonomous-machines/embedded-systems/jetbot-ai-robot-kit/)
+ [Image source](https://www.nvidia.com/ko-kr/autonomous-machines/embedded-systems/jetbot-ai-robot-kit/)
  
 JetBot is an open-source robot based on NVIDIA Jetson Nano. Through JetBot, we learned to sense the surrounding environment (image, sound) and actuate (motion, i.e., forward, stop, left, right) based on sensing.
 
@@ -31,6 +31,9 @@ JetBot is an open-source robot based on NVIDIA Jetson Nano. Through JetBot, we l
 
 #### Voice recognition
 <img src='https://snowboy.kitt.ai/3ee1353fe05ea13250318e7aa14f4a31.png' width='500'>
+
+ [Image source](https://snowboy.kitt.ai/)
+ 
 We used Snowboy for voice recognition. Snowboy is a highly customizable hotword detection engine that is embedded real-time and is always listening (even when off-line) compatible with Raspberry Pi, (Ubuntu) Linux, and Mac OS X. Here, a hotword (also known as wake word or trigger word) is a keyword or phrase that the computer constantly listens for as a signal to trigger other actions.
 
 > For more information see the [Snowboy Wiki](https://github.com/kitt-ai/snowboy)
