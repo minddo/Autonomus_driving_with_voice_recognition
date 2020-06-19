@@ -22,6 +22,7 @@ The objectives of this project are given as follow
 
 #### JetBot
  <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/embedded-jetbot-ai-kits-seeed-2c50-D.jpg">
+ 
  [image source](https://www.nvidia.com/ko-kr/autonomous-machines/embedded-systems/jetbot-ai-robot-kit/)
  
 JetBot is an open-source robot based on NVIDIA Jetson Nano. Through JetBot, we learned to sense the surrounding environment (image, sound) and actuate (motion, i.e., forward, stop, left, right) based on sensing.
